@@ -18,8 +18,9 @@ Run the following command in your terminal:
 ```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
-source venv1/bin/activate  # Use venv\Scripts\activate for Windows
-
+# Create and activate virtual environment
+python -m venv venv  
+source venv/bin/activate  # Use venv\Scripts\activate for Windows
 # Install dependencies
 pip install -r Requirements.txt  
 
